@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+</head>
+<body>
+  <h2 id="name"></h2>
+  <button id="connect">Connect</button>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById("name").innerText =
+      params.get("name") || "Unknown";
+  </script>
+</body>
+</html>

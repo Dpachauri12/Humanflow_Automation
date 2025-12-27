@@ -1,0 +1,9 @@
+browser:
+  headless: true
+
+limits:
+  daily_connections: 20
+
+timing:
+  min_delay_ms: 700
+  max_delay_ms: 2200
