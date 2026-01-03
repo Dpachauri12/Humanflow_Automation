@@ -131,6 +131,3 @@ go run ./cmd
 
 
 
-Author
-Daksh Pachauri
-B.Tech CSE — Final Year
